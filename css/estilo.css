@@ -259,6 +259,13 @@ h1 {
 }
 
 .container-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 30%;
+}
+
+.video-responsivo {
     position: absolute;
     margin-top: 10px;
     top: 0;
@@ -335,7 +342,7 @@ footer span {
     }
 
     .mapa-responsivo {
-        position: relative;
+        position: absolute;
         margin-top: 10px;
         top: 0;
         left: 0;
